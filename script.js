@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://infinite-reef-78397.herokuapp.com/v1/task/';
-  const trelloApiRoot = 'https://infinite-reef-78397.herokuapp.com/v1/task/trello/';
+  const trelloApiRoot = 'https://infinite-reef-78397.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
